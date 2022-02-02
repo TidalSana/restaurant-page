@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url('./fonts/Cantarell-Regular.ttf');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('./fonts/LibreFranklin-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'MuktaVaani-Light';
+    src: url('./fonts/MuktaVaani-Light.ttf');
+}
+body {
+    background-color: #EEE9E6;
+}
+#content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh;
+}
+#header {
+    display: flex;
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-size: 2em;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+    width: 100%;
+    height: 5%;
+}
+.button-style  {
+    font-family: 'MuktaVaani-Light';
+    font-size: 1em;
+    border: none;
+    padding: 0; 
+    background: none;
+    margin: 10px;
+    transition: all .2s ease-in-out;
+}
+.button-style:hover {
+    transform: scale(1.1);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center-div-keeb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(186, 183, 181);
+    padding: 5px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.text-div-keeb {
+    font-family: 'Cantarell-Regular';
+    font-style: oblique;
+    padding: 5px;
+    margin: 10px;
+}
+#banner-head {
+    font-family: 'Libre Franklin';
+    font-style: initial;
+    margin: 10px;
+    font-size: 2em;
+}
+.div-first, .div-second {
+    box-shadow: -1px 5px 15px 5px rgba(0,0,0,0.26);
+}
+#keyboard-banner, #ramen-banner {
+    display: block;
+    max-height: 500px;
+    max-width: 500px;
+    transition: all .2s ease-in-out;
+}
+/* div banner on the left */
+.div-first {
+    margin-top: 400px;
+}
+#keyboard-banner {
+    
+}
+#keyboard-banner:hover {
+    transform: scale(1.1);
+    background-position: 0 -30px;
+}
+
+/* div banner on the right */
+.div-second {
+}
+#ramen-banner {
+
+}   
+#ramen-banner:hover {
+    transform: scale(1.1);
+    background-position: 0 -30px;
+}
