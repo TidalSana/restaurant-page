@@ -32,8 +32,8 @@ let createCenter = function() {
     centerDiv.classList.add('center-div-keeb');
     textDiv.classList.add('text-div-keeb');
     bannerHead.id = 'banner-head';
-    bannerHead.innerHTML = `'But why?'`;
-    bannerText.innerHTML = "you may ask. <br> <br> Because I love keyboards and ramen that simple...";
+    bannerHead.innerHTML = `'Why?'`;
+    bannerText.innerHTML = "you may ask. <br> <br> Because I love keyboards and ramen.";
     centerDiv.appendChild(textDiv);
     textDiv.appendChild(bannerHead);
     textDiv.appendChild(bannerText);

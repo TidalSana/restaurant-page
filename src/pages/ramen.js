@@ -42,7 +42,7 @@ let createMenu = function() {
     const dumplingRamen = ramenDiv(dumpling, 'dumpling', 'Shoyu Dumpling Ramen');
     const gingerRamen = ramenDiv(ginger, 'ginger', 'Shoyu Ginger Ramen');
     const spicyRamen = ramenDiv(spicyMiso, 'spicy-miso', 'Spicy Miso Ramen');
-    const tantanmen = ramenDiv(tantan, 'tantanmen', 'Spicy Tanntanmen (Ramen)');
+    const tantanmen = ramenDiv(tantan, 'tantanmen', 'Spicy Tantanmen (Ramen)');
     const tonkotsuRamen = ramenDiv(tonkotsu, 'tonkotsu', 'Tonkotsu Ramen');
 
     menu.appendChild(dumplingRamen);
